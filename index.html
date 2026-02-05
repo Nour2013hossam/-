@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>درع الإنترنت الآمن | توعية بالأمن الرقمي</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- شريط علوي -->
+  <header class="site-header">
+    <nav class="navbar" aria-label="القائمة الرئيسية">
+      <div class="brand">
+        <span class="brand-icon" aria-hidden="true">🛡️</span>
+        <span>درع الإنترنت الآمن</span>
+      </div>
+      <button class="menu-toggle" id="menuToggle" aria-label="فتح القائمة">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#home" data-page="home" class="nav-link active">الرئيسية</a>
+        <a href="#state-efforts" data-page="state-efforts" class="nav-link">جهود الدولة</a>
+        <a href="#safe-importance" data-page="safe-importance" class="nav-link">أهمية الإنترنت الآمن</a>
+        <a href="#safe-concept" data-page="safe-concept" class="nav-link">مفهوم الإنترنت الآمن</a>
+        <a href="#passwords" data-page="passwords" class="nav-link">كلمات المرور والخصوصية</a>
+        <a href="#games-guidance" data-page="games-guidance" class="nav-link">الألعاب الإلكترونية</a>
+        <a href="#game-risks" data-page="game-risks" class="nav-link">مخاطر الألعاب</a>
+        <a href="#game-health" data-page="game-health" class="nav-link">تأثير الألعاب الصحي</a>
+        <a href="#identity-protection" data-page="identity-protection" class="nav-link">السرقة الرقمية</a>
+        <a href="#device-security" data-page="device-security" class="nav-link">حماية الأجهزة</a>
+        <a href="#business-data" data-page="business-data" class="nav-link">حماية بيانات الشركات</a>
+        <a href="#scam-avoid" data-page="scam-avoid" class="nav-link">تجنب الخداع</a>
+        <a href="#cybersecurity" data-page="cybersecurity" class="nav-link">الأمن السيبراني</a>
+      </div>
+      <div class="nav-actions">
+        <div class="search-box">
+          <input type="search" id="siteSearch" placeholder="ابحث عن موضوع..." aria-label="بحث" />
+          <ul class="search-results" id="searchResults" aria-live="polite"></ul>
+        </div>
+        <button class="mode-toggle" id="modeToggle" aria-label="تبديل الوضع الليلي">🌙</button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- قسم رئيسي -->
+  <main class="main-content">
+    <section id="home" class="page-section active" data-title="الرئيسية" data-keywords="مقدمة, إنترنت آمن, توعية">
+      <div class="hero">
+        <div class="hero-text">
+          <span class="hero-badge">توعية رقمية موثوقة</span>
+          <h1>معًا نحو إنترنت آمن ووعي رقمي</h1>
+          <p>
+            يهدف هذا الموقع إلى رفع الوعي بالأمن الرقمي وتقديم إرشادات عملية تساعد الأفراد
+            والأسر والمؤسسات على استخدام الإنترنت بأمان وثقة.
+          </p>
+          <div class="hero-actions">
+            <button class="primary-btn" data-page="cybersecurity">ابدأ من هنا</button>
+            <button class="ghost-btn" data-page="safe-importance">اعرف المزيد</button>
+          </div>
+          <div class="hero-stats">
+            <div>
+              <h3>12+</h3>
+              <p>موضوع توعوي</p>
+            </div>
+            <div>
+              <h3>100%</h3>
+              <p>محتوى عربي</p>
+            </div>
+            <div>
+              <h3>24/7</h3>
+              <p>نصائح مستمرة</p>
+            </div>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img src="https://images.unsplash.com/photo-1510511459019-5dda7724fd87?auto=format&fit=crop&w=900&q=80" alt="أمن رقمي" />
+        </div>
+      </div>
+
+      <div class="section-grid">
+        <article class="info-card animate">
+          <div class="card-icon">🔒</div>
+          <h3>حماية الخصوصية</h3>
+          <p>تعلم كيف تحمي بياناتك الشخصية وتتحكم في ما تشاركه عبر الإنترنت.</p>
+        </article>
+        <article class="info-card animate">
+          <div class="card-icon">🧠</div>
+          <h3>وعي رقمي</h3>
+          <p>إرشادات سهلة لفهم المخاطر الرقمية وكيفية التصرف بثقة.</p>
+        </article>
+        <article class="info-card animate">
+          <div class="card-icon">⚡</div>
+          <h3>استجابة سريعة</h3>
+          <p>نصائح فورية للتعامل مع الاحتيال الإلكتروني والتهديدات الرقمية.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="state-efforts" class="page-section" data-title="جهود الدولة" data-keywords="جهود الدولة, مبادرات, تشريعات, حماية">
+      <div class="section-header">
+        <div class="icon-circle">🏛️</div>
+        <h2>جهود الدولة في استخدام الإنترنت الآمن</h2>
+      </div>
+      <div class="section-content">
+        <img class="section-image" src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=900&q=80" alt="جهود الدولة" />
+        <ul>
+          <li>تطوير تشريعات لحماية البيانات والخصوصية الرقمية.</li>
+          <li>إطلاق مبادرات توعوية للمواطنين حول الأمن الرقمي.</li>
+          <li>تعزيز البنية التحتية للأمن السيبراني في المؤسسات.</li>
+          <li>توفير منصات للإبلاغ عن الجرائم الإلكترونية بسرعة.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="safe-importance" class="page-section" data-title="أهمية الإنترنت الآمن" data-keywords="أهمية الإنترنت الآمن, حماية, ثقة">
+      <div class="section-header">
+        <div class="icon-circle">⭐</div>
+        <h2>أهمية استخدام إنترنت آمن</h2>
+      </div>
+      <div class="section-content">
+        <img class="section-image" src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=900&q=80" alt="إنترنت آمن" />
+        <p>
+          استخدام الإنترنت بشكل آمن يحمي معلوماتك الشخصية ويضمن تجربة رقمية موثوقة، كما يساهم في
+          بناء مجتمع رقمي واعٍ قادر على مواجهة التهديدات الإلكترونية.
+        </p>
+        <div class="tips">
+          <div class="tip">يحافظ على البيانات المالية من السرقة.</div>
+          <div class="tip">يعزز الثقة في الخدمات الحكومية والتجارية.</div>
+          <div class="tip">يساعد على حماية الأطفال والمراهقين أثناء التصفح.</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="safe-concept" class="page-section" data-title="مفهوم الإنترنت الآمن" data-keywords="مفهوم الإنترنت الآمن, تعريف, أساسيات">
+      <div class="section-header">
+        <div class="icon-circle">💡</div>
+        <h2>ما هو مفهوم الإنترنت الآمن؟</h2>
+      </div>
+      <div class="section-content">
+        <img class="section-image" src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=900&q=80" alt="مفهوم الإنترنت الآمن" />
+        <p>
+          الإنترنت الآمن هو استخدام الشبكة بطريقة تقلل من المخاطر وتحافظ على الخصوصية من خلال
+          الالتزام بالممارسات الصحيحة مثل التحقق من المواقع، وتحديث الأجهزة، والتعامل بحذر مع الروابط.
+        </p>
+        <ol>
+          <li>تصفح عبر مصادر موثوقة وآمنة.</li>
+          <li>تفعيل المصادقة متعددة العوامل.</li>
+          <li>استخدام برامج حماية محدثة.</li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="passwords" class="page-section" data-title="كلمات المرور" data-keywords="كلمات مرور قوية, حماية الخصوصية, 2FA">
+      <div class="section-header">
+        <div class="icon-circle">🔑</div>
+        <h2>أهمية استخدام كلمات المرور القوية وحماية الخصوصية</h2>
+      </div>
+      <div class="section-content">
+        <img class="section-image" src="https://images.unsplash.com/photo-1556740749-887f6717d7e4?auto=format&fit=crop&w=900&q=80" alt="كلمات مرور قوية" />
+        <p>كلمات المرور القوية تشكل خط الدفاع الأول ضد اختراق الحسابات وحماية البيانات الخاصة.</p>
+        <div class="cards">
+          <div class="mini-card">استخدم كلمات مرور طويلة مع رموز وأرقام.</div>
+          <div class="mini-card">فعّل المصادقة الثنائية لحساباتك.</div>
+          <div class="mini-card">لا تشارك كلمات المرور عبر الرسائل.</div>
+          <div class="mini-card">غيّر كلمات المرور بشكل دوري.</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="games-guidance" class="page-section" data-title="الألعاب الإلكترونية" data-keywords="الألعاب الإلكترونية, الاستخدام الصحيح">
+      <div class="section-header">
+        <div class="icon-circle">🎮</div>
+        <h2>الألعاب الإلكترونية: كيفية التعامل معها بشكل صحيح</h2>
+      </div>
+      <div class="section-content">
+        <img class="section-image" src="https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=900&q=80" alt="الألعاب الإلكترونية" />
+        <ul>
+          <li>تحديد وقت اللعب اليومي وتوازن الأنشطة.</li>
+          <li>اختيار الألعاب المناسبة للعمر والقيم.</li>
+          <li>تفعيل أدوات الرقابة الأبوية عند الحاجة.</li>
+          <li>عدم مشاركة البيانات الشخصية داخل الألعاب.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="game-risks" class="page-section" data-title="مخاطر الألعاب" data-keywords="مخاطر الألعاب الإلكترونية, تهديدات, إدمان">
+      <div class="section-header">
+        <div class="icon-circle">⚠️</div>
+        <h2>مخاطر الألعاب الإلكترونية</h2>
+      </div>
+      <div class="section-content">
+        <img class="section-image" src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=900&q=80" alt="مخاطر الألعاب" />
+        <p>
+          قد تتسبب الألعاب الإلكترونية في مخاطر مثل الإدمان، أو التعرض للمحتوى غير الملائم، أو الوقوع
+          ضحية لعمليات الاحتيال داخل الألعاب.
+        </p>
+        <div class="tips">
+          <div class="tip">مراقبة المشتريات داخل اللعبة.</div>
+          <div class="tip">تجنب التواصل مع الغرباء.</div>
+          <div class="tip">الإبلاغ عن أي سلوك مسيء.</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="game-health" class="page-section" data-title="تأثير الألعاب الصحي" data-keywords="تأثير الألعاب الإلكترونية على الصحة, صحة, عادات">
+      <div class="section-header">
+        <div class="icon-circle">🩺</div>
+        <h2>تأثير الألعاب الإلكترونية على الصحة</h2>
+      </div>
+      <div class="section-content">
+        <img class="section-image" src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=900&q=80" alt="صحة رقمية" />
+        <p>
+          الجلوس لفترات طويلة أمام الشاشات قد يسبب مشاكل صحية مثل إجهاد العينين وقلة الحركة، لذلك
+          من المهم أخذ فترات راحة وممارسة نشاط بدني منتظم.
+        </p>
+        <div class="cards">
+          <div class="mini-card">استراحة كل 45 دقيقة.</div>
+          <div class="mini-card">تمارين إطالة بسيطة.</div>
+          <div class="mini-card">الحد من اللعب قبل النوم.</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="identity-protection" class="page-section" data-title="السرقة الرقمية" data-keywords="السرقة الرقمية, حماية الهوية, تصيد">
+      <div class="section-header">
+        <div class="icon-circle">🛡️</div>
+        <h2>كيفية حماية نفسك من السرقة الرقمية</h2>
+      </div>
+      <div class="section-content">
+        <img class="section-image" src="https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?auto=format&fit=crop&w=900&q=80" alt="حماية الهوية" />
+        <ul>
+          <li>تجنب مشاركة البيانات الحساسة في الرسائل العامة.</li>
+          <li>استخدم شبكات موثوقة عند إجراء المعاملات.</li>
+          <li>تحقق من الروابط قبل الضغط عليها.</li>
+          <li>فعّل التنبيهات لأي نشاط مشبوه بالحسابات.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="device-security" class="page-section" data-title="حماية الأجهزة" data-keywords="حماية الأجهزة, مضاد فيروسات, تحديث">
+      <div class="section-header">
+        <div class="icon-circle">💻</div>
+        <h2>طرق حماية أجهزتنا من الاختراق</h2>
+      </div>
+      <div class="section-content">
+        <img class="section-image" src="https://images.unsplash.com/photo-1526378722484-bd91ca387e72?auto=format&fit=crop&w=900&q=80" alt="حماية الأجهزة" />
+        <div class="cards">
+          <div class="mini-card">تحديث النظام والبرامج باستمرار.</div>
+          <div class="mini-card">استخدام برامج مكافحة الفيروسات.</div>
+          <div class="mini-card">عدم تحميل ملفات مجهولة المصدر.</div>
+          <div class="mini-card">تفعيل جدار الحماية.</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="business-data" class="page-section" data-title="حماية بيانات الشركات" data-keywords="حماية بيانات الشركات, خصوصية, امتثال">
+      <div class="section-header">
+        <div class="icon-circle">🏢</div>
+        <h2>أسباب حاجة الشركات إلى حماية بياناتها</h2>
+      </div>
+      <div class="section-content">
+        <img class="section-image" src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=900&q=80" alt="بيانات الشركات" />
+        <p>
+          حماية بيانات الشركات تحافظ على سمعة المؤسسة وتمنع الخسائر المالية، كما تضمن الامتثال
+          للأنظمة والقوانين المتعلقة بالخصوصية.
+        </p>
+        <ol>
+          <li>حماية الملكية الفكرية والبيانات الحساسة.</li>
+          <li>ضمان استمرارية الأعمال وتقليل المخاطر.</li>
+          <li>بناء ثقة العملاء والشركاء.</li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="scam-avoid" class="page-section" data-title="تجنب الخداع" data-keywords="تجنب الخداع عبر الإنترنت, احتيال, رسائل مشبوهة">
+      <div class="section-header">
+        <div class="icon-circle">🚫</div>
+        <h2>تجنب الخداع عبر الإنترنت</h2>
+      </div>
+      <div class="section-content">
+        <img class="section-image" src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=900&q=80" alt="تجنب الخداع" />
+        <ul>
+          <li>لا تثق بالرسائل التي تطلب معلومات مالية بشكل عاجل.</li>
+          <li>تحقق من عنوان البريد الإلكتروني للمرسل.</li>
+          <li>استخدم مواقع رسمية عند الدفع عبر الإنترنت.</li>
+          <li>أبلغ الجهات المختصة عن أي محاولة احتيال.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="cybersecurity" class="page-section" data-title="الأمن السيبراني" data-keywords="الأمن السيبراني, أهمية, حماية">
+      <div class="section-header">
+        <div class="icon-circle">🧩</div>
+        <h2>مفهوم الأمن السيبراني وأهميته</h2>
+      </div>
+      <div class="section-content">
+        <img class="section-image" src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=900&q=80" alt="الأمن السيبراني" />
+        <p>
+          الأمن السيبراني هو مجموعة من الإجراءات والتقنيات التي تحمي الأنظمة والشبكات من الهجمات
+          الرقمية، ويُعد أساسًا لضمان سلامة البيانات واستمرارية الخدمات.
+        </p>
+        <div class="tips">
+          <div class="tip">إدارة المخاطر بشكل مستمر.</div>
+          <div class="tip">تدريب الموظفين على الوعي الأمني.</div>
+          <div class="tip">استخدام حلول مراقبة متقدمة.</div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div>
+      <h3>تواصل معنا</h3>
+      <p>البريد الإلكتروني: info@safeshield.example</p>
+      <p>الهاتف: 1234 567 890</p>
+    </div>
+    <div>
+      <h3>روابط مفيدة</h3>
+      <ul>
+        <li><a href="https://www.saferinternetday.org/" target="_blank" rel="noreferrer">اليوم العالمي للإنترنت الآمن</a></li>
+        <li><a href="https://www.cert.gov.sa/" target="_blank" rel="noreferrer">المركز الوطني للأمن السيبراني</a></li>
+        <li><a href="https://www.unicef.org/ar/" target="_blank" rel="noreferrer">موارد حماية الأطفال على الإنترنت</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3>تابعنا</h3>
+      <div class="social-links">
+        <a href="#" aria-label="تويتر">🐦</a>
+        <a href="#" aria-label="لينكدإن">💼</a>
+        <a href="#" aria-label="يوتيوب">▶️</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
